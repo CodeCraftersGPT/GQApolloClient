@@ -1,6 +1,7 @@
 import React from 'react';
 import { ApolloClient, InMemoryCache, ApolloProvider } from '@apollo/client';
 import BookList from './Components/Grahql/BookList';
+import AddBook from './Components/Grahql/AddBook';
 
 //import AddBook from './AddBook';
 
@@ -15,7 +16,7 @@ function App() {
       <div id="main">
         <h1>My Library</h1>
         <BookList />
-        {/* <AddBook /> */}
+        <AddBook />
       </div>
     </ApolloProvider>
   );
